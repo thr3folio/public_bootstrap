@@ -7,6 +7,15 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+ color:gray;
+ text-decoration: none;   
+}
 
 .clearfix {
   *zoom: 1;
@@ -39,6 +48,7 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 
 article,
 aside,
@@ -178,7 +188,7 @@ textarea {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -228,6 +238,7 @@ body {
   line-height: 21px;
   color: #c8c8c8;
   background-color: #272b30;
+ /*background-color: #494e53;*/
 }
 
 a {
@@ -742,7 +753,7 @@ h6 {
   font-family: inherit;
   font-weight: bold;
   line-height: 21px;
-  color: inherit;
+  color: #fff;
   text-rendering: optimizelegibility;
 }
 
@@ -3135,7 +3146,7 @@ table th[class*="span"],
 }
 
 .well-small {
-  padding: 9px;
+  padding: 3px;
   -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
           border-radius: 3px;
@@ -7068,3 +7079,5 @@ a.thumbnail:hover {
 .affix {
   position: fixed;
 }
+
+
